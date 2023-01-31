@@ -4,7 +4,7 @@ public class JavaPractise {
     public static void main(String[] args) throws Exception{
         // EDTI DIRECTLY JavaPractise.java
         // COMMIT01AAA
-        //user1有一个teacher对象的属性
+        //user1有一个feacher对象的属性
         Teacher teacher=new Teacher();
         teacher.setTeacherName("我是teacher一号");
         Student student1 = new Student();
@@ -25,6 +25,8 @@ public class JavaPractise {
 
         System.out.println("user2 的name"+student2.getName());
         System.out.println("user2 的techerName"+student2.getTeacher().getTeacherName());
+
+//        feature 1 add
     }
 }
 
